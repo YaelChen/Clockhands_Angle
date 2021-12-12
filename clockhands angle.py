@@ -20,7 +20,7 @@ def clockhands_angle(hour):
 
     answer = abs((five_min_angle * hours + in_hour) - (minute_angle * mins))
 
-    # print(answer)  #  if angles beyond 180 are fine
+    # print(answer)  # if angles beyond 180 are fine for an answer
 
     if answer < 180:
         print(answer)
