@@ -11,7 +11,6 @@ def clockhands_angle(hour):
     minute_angle = 360/60  # =6
     five_min_angle = minute_angle * 5  # =30
 
-    # hour = "02:10"  # from 00:00 to 12:00
     hours = int(hour[:2])  # hours from 0 to 12 only, not a minute after 12!
     mins = int(hour[3:])
 
