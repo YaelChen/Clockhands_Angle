@@ -1,10 +1,10 @@
 def clockhands_angle(hour):
     """
-    a function for solving the clock hands angle riddle from job interviews: "Wht is the angle between the clock hands
+    a function for solving the clock hands angle riddle from job interviews: "What is the angle between the clock hands
     at 2:10?" (any given hour in this function)
-    :param hour:
+    :param hour: a given hour
     :type hour: str
-    :return angle: the angle between the clockhands in the given hour
+    :return angle: the angle between the clock hands in the given hour
     :rtype angle: float
     """
 
